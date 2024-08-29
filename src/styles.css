@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
+    min-width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -14,6 +15,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 14px;
 }
 
 
@@ -35,6 +37,7 @@ p {
     font-size: 18px;
 }
 
+
 .content {
     display: flex;
     flex-direction: column;
@@ -46,7 +49,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 6%;
+    gap: 32px;
 }
 
 .greatAidTitle {
@@ -62,7 +65,6 @@ p {
 .introText {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
 }
 
 .signUpIntro {
@@ -76,6 +78,41 @@ p {
 
 .information {
     background-color: #8C52FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    color: white;
+    
+}
+
+.infoTitle {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.infoPics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-content: center;
+    justify-content:space-evenly;
+    font-size: 24px;
+
+}
+
+div.eachInfoPic img {
+    border-radius: 20px;
+    height: 250px;
+    width: auto;
+    border: 3px solid white;
+}
+
+.eachInfoPic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
 }
 
 .quote {
