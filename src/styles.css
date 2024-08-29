@@ -1,0 +1,95 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    padding: 0 24px;
+}
+
+a {
+    text-decoration: none;
+    color: #3E4240;
+}
+
+p {
+    font-size: 18px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.introduction {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6%;
+}
+
+.greatAidTitle {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.introImg {
+    border-radius: 20px;
+    border: 3px solid #8C52FF;
+}
+
+.introText {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.signUpIntro {
+    font-size: 22px;
+    padding: 14px;
+    background-color: #8C52FF;
+    color: white;
+    max-width: 80px;
+    border-radius: 12px;
+}
+
+.information {
+    background-color: #8C52FF;
+}
+
+.quote {
+    background-color: #CAB0FF;
+}
+
+.signupContainer {
+    background-color: #CAB0FF;
+}
+
+.footer {
+    background-color: #8C52FF;
+}
+
+.introduction, .information, .quote, .signupContainer {
+    padding: 48px;
+}
